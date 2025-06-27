@@ -1,0 +1,60 @@
+.container {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f172a, #1e293b); /* similar to Hero */
+  text-align: center;
+  color: #f1f5f9;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.certList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.certItem {
+  background-color: rgba(255, 255, 255, 0.05); /* transparent card */
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  backdrop-filter: blur(5px);
+}
+
+.certItem:hover {
+  transform: translateY(-5px);
+}
+
+.certItem h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #f8fafc;
+}
+
+.certItem p {
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+.certLink {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid #60a5fa;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.certLink:hover {
+  background-color: #60a5fa;
+  color: #0f172a;
+}

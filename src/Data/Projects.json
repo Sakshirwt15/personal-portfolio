@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a full-stack hotel booking platform using MERN and an admin dashboard for managing hotels and bookings",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Sakshirwt15"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/project.png",
+    "description": "Built a machine learning model to predict house prices using cleaned housing data, with experiment tracking via ZenML and MLflow",
+    "skills": ["Python", "Pandas", "Scikit-learn", "Matplotlib", "ZenML", "MLflow"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com/Sakshirwt15"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "Designed an AI-powered waste reporting system with Next.js 14, Gemini AI, and Web3Auth, featuring automated waste classification and verification.",
+    "skills": ["Next.js", "Gemini AI", "Web3Auth", "Drizzle ORM", "Tailwind CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com/Sakshirwt15"
+  }
+]

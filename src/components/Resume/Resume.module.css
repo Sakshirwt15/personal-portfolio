@@ -1,0 +1,65 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+  text-align: center;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  color: var(--color-text);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.resumeButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.resumeBtn {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.downloadBtn {
+  background-color: #10b981;
+  color: white;
+}
+
+.downloadBtn:hover {
+  background-color: #059669;
+}
+
+.viewBtn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.viewBtn:hover {
+  background-color: #2563eb;
+}
